@@ -3,5 +3,5 @@
 //  - 완전한 자바 클래스로 인정하지 않아서 IntelliJ의 Project 탐색기에서 .java 확장자가 보임
 // Instance Main Methods: JVM이 인스턴스 생성 후 호출함. 이제 자신의 메서드 호출시 인스턴스 생성하지 않아도 됨
 void main(){
-    System.out.println("New Hello World");
+    System.out.println("New Hello Worldasdfasdf");
 }
