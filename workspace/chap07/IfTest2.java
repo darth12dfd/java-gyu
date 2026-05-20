@@ -1,0 +1,24 @@
+package chap07;
+
+
+//입력받은 월(month)의 마지막 날짜를 출력하세요.(윤달 여부 계산 x)
+public class IfTest2 {
+    public static void main(String[] args) {
+        int month = 21;
+
+        if(month < 1 || month > 12) {
+            System.out.println("1이상 12 이하의 숫자만 가능합니다.");
+            System.exit(0);
+        }
+
+        if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month ==12){
+            System.out.println(month+"월의 마지막 날은 31일입니다.");
+        }
+        else if(month == 2){
+            System.out.println(month+"월의 마지막 날은 28일입니다.");
+        }
+        else if (month == 4 || month == 6 || month == 9 || month == 11){
+            System.out.println(month+"월의 마지막 날은 30일입니다.");
+        }
+    }
+}
